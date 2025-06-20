@@ -9,7 +9,7 @@ class Nullpointer {
                 try {
                     int result = num / arr[i];
                     System.out.println(num + " / " + arr[i] + " = " + result);
-                } catch (ArithmeticException e) {
+                } catch (NullPointerException e) {
                     System.out.println(e);
             }
         }
